@@ -34,4 +34,4 @@ jobs:
       # Run the tests
       - name: Run Tests
         run: |
-          pytest battleship_test.py --tb=short
+          python -m pytest battleship_test.py --tb=short
